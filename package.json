@@ -1,0 +1,48 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "TreeHacks website",
+  "private": true,
+  "engines": {
+    "node": "14.15.4",
+    "npm": "7.5.4"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "force-ssl-heroku": "^1.0.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-collapsed": "^2.2.3",
+    "react-dom": "^16.14.0",
+    "react-icons": "^4.2.0",
+    "react-player": "^1.15.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.0.1",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+#sponsors.container {
+  position: relative;
+  background-color: $offwhite;
+  // padding-top: $large-space;
+  padding-bottom: $large-space;
+  @include flex(column nowrap, flex-start, center);
+  margin-top: $large-space * 1.5;
+  min-height: 300px;
+
+  .section-heading {
+    margin-bottom: $small-space;
+    // padding-top: 100px;
+  }
+
+  #sub-heading {
+    margin-bottom: 1.5rem;
+    color: $black;
+  }
+
+  @media screen and (max-width: 750px) {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+
+
+  .level {
+    @include flex(row wrap, center, center);
+    width: 80%;
+    margin: 1rem auto;
+
+    img:hover {
+      transition: $transition-speed;
+      transform: scale(1.05);
+    }
+
+    &.level-biggest img {
+      width: 100%;
+    }
+
+    &.level-biggest a {
+      width: 40%;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 2em;
+      min-width: 250px;
+    }
+
+    &.level-big {
+
+      margin-top: 2.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    &.level-big img {
+      width: 100%;
+    }
+
+    &.level-big a {
+      margin-left: 50px;
+      margin-right: 50px;
+      width: 25%;
+      min-width: 100px;
+    }
+
+    &.level-medium {
+      margin-bottom: 2.5rem;
+      min-height: 250px;
+      
+    }
+
+    &.level-medium img {
+      width: auto;
+       height: 50px;
+    }
+
+    &.level-medium a {
+      width: auto;
+      height: 50px;
+      min-height: 100px;
+      // width: 20%;
+      // min-width: 70px;
+      margin: 10px 10px;
+      
+    }
+
+    &.level-small {
+      vertical-align: middle;
+    }
+    // &.level-small img {
+    //   // max-height: 40px;
+    //   // max-width: 100%;
+    //   // min-height: 150px;
+    //   height: 35px;
+    //   // min-width: 60px;
+    //   width: auto;
+    // }
+
+    &.level-small a img {
+      max-width: 200px;
+      min-height: 45px;
+      max-height: 50px;
+
+
+
+      margin: 0 5px;
+      margin: 15px;
+      top: 50%;
+
+    }
+
+    &.level-smallest {
+      margin-top: 2rem;
+    }
+
+    &.level-smallest img {
+      width: 100%;
+    }
+
+    &.level-smallest a {
+      width: 10%;
+      min-width: 50px;
+      margin: 0 10px;
+    }
+
+    &.level-tiny {
+      margin-bottom: 3rem;
+    }
+
+    &.level-tiny img {
+      width: 100%;
+    }
+
+    &.level-tiny a {
+      width: 6%;
+      min-width: 50px;
+      margin: 0 10px;
+    }
+
+    a {
+      margin: 0rem;
+    }
+
+    & + .level {
+    }
+  }
+}
