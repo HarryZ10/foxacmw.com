@@ -12,7 +12,7 @@ function About() {
         <div>
           <p className="intro">{about_intro}</p>
         </div>
-        <Countdown />
+        {/* <Countdown /> */}
         <div>
           <p className="body">{about_body}</p>
         </div>

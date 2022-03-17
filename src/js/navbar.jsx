@@ -22,9 +22,7 @@ function Navbar() {
           <li className="navbar-item"><AnchorLink offset='100' href="#sponsors">sponsors</AnchorLink></li>
           <li className="navbar-item"><a rel="noopener noreferrer" target="_blank" href="https://docs.google.com/document/d/1M8zvvi8l1tHGwsP7SqJa6EcpBKD2WcZem9O0riDhelE/edit?usp=sharing">more info</a></li>
           {Date.now() > new Date(ended_cutoff) ?
-            null
-            : Date.now() > new Date(live_cutoff) ?
-              <a href="https://codejam.foxacmw.com"><li id="navbar-apply">view live schedule</li></a>
+              <li className="apply-link register-btn-ext navbar-item" title="Live dashboard"><a rel="noopener noreferrer" target="_blank" href="https://live.foxacmw.com">live schedule</a></li>
               :
               <li className="apply-link register-btn-ext navbar-item" title="Applications open now"><a rel="noopener noreferrer" target="_blank" href="https://forms.gle/ofdWQXiNjAdkSRzs7">register now</a></li>
           } 
