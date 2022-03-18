@@ -19,8 +19,8 @@ class Home extends React.Component {
             <br />
             George Fox University
 
-          <a href="#" className="apply-button">
-            Registration Closed
+          <a rel="noopener noreferrer" target="_blank" href="https://live.foxacmw.com" className="apply-button">
+            Live Dashboard
           </a>
 
           </div>
