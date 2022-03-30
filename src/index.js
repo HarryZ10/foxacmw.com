@@ -29,7 +29,7 @@ function Main() {
       <Team />
       <Challenges />
       <FAQ />
-      <Projects />
+      {/* <Projects /> */}
       <Sponsors />
     </div>
   );
@@ -67,7 +67,7 @@ function App() {
             to="https://github.com/HarryZ10/website/blob/website-2022/PRIVACY-POLICY.md"
           />
           <Route exact path="/" component={Main} />
-          <Route exact path="/our-board" component={Team} />
+          {/* <Route exact path="/our-board" component={Team} /> */}
           {/* <Redirect to="/" /> */}
         </Switch>
       </Router>

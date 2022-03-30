@@ -16,12 +16,12 @@ function About() {
           <p className="body">{about_body}</p>
         </div> */}
         <h2 style={videoLIVE}>Welcome to ACM-W!</h2>
-        <div className="about-video" style={{ paddingTop: '50px' }}>
+        <div className="about-video center" style={{ paddingTop: '50px' }}>
           <ReactPlayer controls="true" url={videoURL} height="100%" width="100%" />
         </div>
 
         <div style={{ paddingTop: '100px' }}>
-          <p className="intro">
+          <p className="intro center">
             Our goal as a part of ACM-W is to create a community within our Computer Science and Information Systems department. Even though we are a chapter focusing on women inclusion in tech, we want to provide a positive environment for everyone.
             </p>
         </div>
