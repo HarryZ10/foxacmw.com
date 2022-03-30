@@ -7,6 +7,7 @@ import Projects from "./js/projects.jsx";
 import FAQ from "./js/faq.jsx";
 import Sponsors from "./js/sponsors.jsx";
 import Challenges from "./js/challenges.jsx";
+import Team from "./js/team.jsx";
 
 import {
   BrowserRouter as Router,
@@ -18,12 +19,14 @@ import {
 import "./favicons/favicons";
 import "./index.scss";
 
+
 function Main() {
   return (
     <div>
       <Navbar />
       <Home />
       <About />
+      <Team />
       <Challenges />
       <FAQ />
       <Projects />
@@ -47,29 +50,28 @@ function CustomRedirect({ from, to }) {
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        {/* <CustomRedirect
-          from="/slack"
-          to="https://join.slack.com/t/treehacks-2019/shared_invite/enQtNTE5ODY0MDI2NjQ3LWI2YjhlYTU3OTE1ODcyMTdmZWYzYWVjY2NjNzQ2YTBiZDY5YWYwYzhkMDhlZTBmNmNmMzMzZWYxM2QwMTMxMmI"
-        />}*/}
-
-        <CustomRedirect
-          from="/sponsors"
-          to="https://forms.gle/EMv7CcD2MxFEh6RUA"
-        />
-        <CustomRedirect
-          from="/code-of-conduct"
-          to="https://github.com/HarryZ10/website/blob/website-2022/CODE-OF-CONDUCT"
-        />
-        <CustomRedirect
-          from="/privacy-policy"
-          to="https://github.com/HarryZ10/website/blob/website-2022/PRIVACY-POLICY.md"
-        />
-        <Route exact path="/" component={Main} />
-        <Redirect to="/" />
-      </Switch>
-    </Router>
+    <div>
+      {/* <Navbar /> */}
+      <Router>
+        <Switch>
+          <CustomRedirect
+            from="/sponsors"
+            to="https://forms.gle/EMv7CcD2MxFEh6RUA"
+          />
+          <CustomRedirect
+            from="/code-of-conduct"
+            to="https://github.com/HarryZ10/website/blob/website-2022/CODE-OF-CONDUCT"
+          />
+          <CustomRedirect
+            from="/privacy-policy"
+            to="https://github.com/HarryZ10/website/blob/website-2022/PRIVACY-POLICY.md"
+          />
+          <Route exact path="/" component={Main} />
+          <Route exact path="/our-board" component={Team} />
+          {/* <Redirect to="/" /> */}
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

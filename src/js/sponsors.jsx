@@ -14,7 +14,7 @@ const _makeSponsors = function (key) {
   return (
     <div className={`level level-${key}`}>
       {SPONSORS[key].map((sponsor) => (
-        <a href={sponsor["link"]} target="_blank" rel="noopener noreferrer">
+        <a id="gov" href={sponsor["link"]} target="_blank" rel="noopener noreferrer">
           <img key={sponsor["img"]} src={sponsor["img"]} alt="sponsor" />
         </a>
       ))}
@@ -25,11 +25,9 @@ const _makeSponsors = function (key) {
 function Sponsors() {
   return (
     <div id="sponsors" className="container">
-      <div className="stripe-wrapper sponsors">
-      </div>
-      <h1 className="section-heading" id="sub-heading">
+      {/* <h1 className="section-heading" id="sub-heading">
         sponsors
-      </h1>
+      </h1> */}
       
       {_makeSponsors("biggest")}
       {_makeSponsors("big")}

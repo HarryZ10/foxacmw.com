@@ -18,7 +18,7 @@ function makeColors() {
 
 function Projects() {
   return (
-    <div id="projects" className="container">
+    <div id="projects" className="container" style={{ paddingLeft: '2px', paddingRight: '2px'  }}>
       <h1 className="section-heading">Past Projects</h1>
       <ProjectSlider />
     </div>
