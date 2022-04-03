@@ -5,7 +5,7 @@ function Challenges() {
   return(
     <div id="challenges">
       <div className="stripe accent-orange"/>
-      <h1 className="section-heading">code jam challenges</h1>
+      <h1 className="section-heading">innovation at fox</h1>
       <div className="section-intro">{challenges_intro}</div>
       <div className="container">
         {challenges.map((challenge, i) => {

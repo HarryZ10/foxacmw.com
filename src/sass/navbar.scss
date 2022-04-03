@@ -124,4 +124,12 @@ $navbar-horizontal-padding: 15px;
   .navbar-item.about-link {
     display: none;
   }
+
+  .navbar-item a#home-tab {
+    display: none;
+  }
+
+  .navbar-item a#sponsors-tab {
+    display: none;
+  }
 }
