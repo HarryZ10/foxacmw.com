@@ -1,24 +1,25 @@
 {
   "board_members" : [
     {
-      "name" : "Lisette",
-      "pos" : "Board Chair",
-      "image" : "team/lisette.jpeg"
-    },
-    {
-      "name" : "Christina",
-      "pos" : "Vice Chair of Treasury",
-      "image" : "team/christina.jpeg"
-    },
-    {
-      "name" : "Sophia",
-      "pos" : "Vice Chair of Event Planning & Strategy",
-      "image" : "team/sophia.jpeg"
-    },
-    {
       "name" : "Harry",
-      "pos" : "Vice Chair of Marketing & Digital Communications",
+      "pos" : "President",
+      "email" : "harry@foxacmw.com",
       "image" : "team/harry.jpg"
+    },
+    {
+      "name" : "TBD",
+      "pos" : "Vice Chair of Finance & Partnerships",
+      "image" : "team/tbd.jpg"
+    },
+    {
+      "name" : "TBD",
+      "pos" : "Vice Chair of Marketing & Digital Communications",
+      "image" : "team/tbd.jpg"
+    },
+    {
+      "name" : "TBD",
+      "pos" : "Secretary",
+      "image" : "team/tbd.jpg"
     }
   ],
   "ended_cutoff": "2022-03-15T08:00:00.000Z",

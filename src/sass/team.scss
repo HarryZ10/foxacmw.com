@@ -40,11 +40,17 @@ img.grid-item-image {
 }
 
 .member-name {
-    padding-top: 10%;
+    padding-top: $small-space;
     text-align: center;
 }
 
 .member-pos {
+    text-align: center;
+    font-size: $base-font-size;
+    padding-bottom: $small-space;
+}
+
+.member-email {
     text-align: center;
     font-size: $base-font-size;
 }
