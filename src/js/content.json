@@ -6,19 +6,19 @@
       "email" : "harry@foxacmw.com",
       "image" : "team/harry.jpg"
     },
-    {
-      "name" : "TBD",
-      "pos" : "Vice Chair of Finance & Partnerships",
+        {
+      "name" : "Cassie",
+      "pos" : "Executive Vice President",
       "image" : "team/tbd.jpg"
     },
     {
-      "name" : "TBD",
-      "pos" : "Vice Chair of Marketing & Digital Communications",
+      "name" : "Alex",
+      "pos" : "Associate VP of Finance",
       "image" : "team/tbd.jpg"
     },
     {
-      "name" : "TBD",
-      "pos" : "Secretary",
+      "name" : "Dominick",
+      "pos" : "Associate VP of Partnerships",
       "image" : "team/tbd.jpg"
     }
   ],
