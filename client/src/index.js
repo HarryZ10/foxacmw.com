@@ -52,7 +52,6 @@ function CustomRedirect({ from, to }) {
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
       <Router>
         <Switch>
           <CustomRedirect
@@ -69,7 +68,7 @@ function App() {
           />
           <Route exact path="/" component={Main} />
           {/* <Route exact path="/our-board" component={Team} /> */}
-          {/* <Redirect to="/" /> */}
+          <Redirect to="/" />
         </Switch>
       </Router>
     </div>
