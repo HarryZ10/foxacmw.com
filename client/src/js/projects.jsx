@@ -18,7 +18,7 @@ function makeColors() {
 
 function Projects() {
   return (
-    <div id="projects" className="container" style={{ paddingLeft: '2px', paddingRight: '2px'  }}>
+    <div id="projects">
       <h1 className="section-heading">Past Projects</h1>
       <ProjectSlider />
     </div>
@@ -49,7 +49,7 @@ class ProjectSlider extends React.Component {
 
   render() {
     var numSlides = 3;
-    if (window.innerWidth < 750) {
+    if (window.innerWidth < 768.68) {
       numSlides = 1;
     }
     const settings = {
@@ -97,9 +97,11 @@ class GridItem extends React.Component {
         <p className="title">{this.props.title}</p>
         <p className="text">{this.props.text}</p>
         {this.props.url && (
-          <p style={{ width: '100%', marginBottom: '5%'}}>
-          <a className="url arrowlink" href={this.props.url}>View more</a>
-        </p>
+          <p style={{ width: "100%", marginBottom: "5%" }}>
+            <a className="url arrowlink" href={this.props.url}>
+              View more
+            </a>
+          </p>
         )}
       </div>
     );
