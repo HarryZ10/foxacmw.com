@@ -1,0 +1,56 @@
+#team {
+    position: relative;
+    background-color: $background-color;
+    padding-bottom: $small-space * 2;
+    padding-top: $small-space * 3;
+
+    .section-heading {
+        padding-top: $small-space;
+        margin-bottom: $small-space;
+        color: $gold;
+    }
+
+    @media screen and (max-width: 750px) {
+        .grid-item {
+          width: 68vw;
+          height: 70vh;
+        }
+    }
+}
+
+img.grid-item-image {
+    transition-duration: $transition-speed;
+    color: $offwhite;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+
+    margin: auto;    
+    display: block;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: '100%';
+}
+
+.member-name {
+    padding-top: $small-space;
+    text-align: center;
+}
+
+.member-pos {
+    text-align: center;
+    font-size: $base-font-size;
+    padding-bottom: $small-space;
+}
+
+.member-email {
+    text-align: center;
+    font-size: $base-font-size;
+}

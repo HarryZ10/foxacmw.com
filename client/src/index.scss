@@ -1,0 +1,62 @@
+@import "sass/global";
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+nav,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $heavy-font-weight;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+$fa-font-path: "~font-awesome/fonts";
+
+@import "sass/navbar";
+@import "sass/home";
+@import "sass/countdown";
+@import "sass/challenges";
+@import "sass/about";
+@import "sass/projects";
+@import "sass/faq";
+@import "sass/team";
+@import "sass/sponsors";
+@import "sass/aesthetics";
+@import "~font-awesome/scss/font-awesome";
