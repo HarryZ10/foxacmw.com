@@ -3,6 +3,8 @@
   background-color: $background-color;
   padding-bottom: $small-space * 2;
   padding-top: $small-space * 2;
+  margin-left: 5rem;
+  margin-right: 5rem;
 
   .section-heading {
     padding-top: $small-space;
@@ -24,7 +26,52 @@
 }
 
 .slick-track {
-    @include flex(row nowrap, center, center);
+  @include flex(row nowrap, center, center);
+}
+
+@media screen and (min-width: 1700px) {
+  .slick-track {
+    .grid-item p {
+      font-size: 1.5rem;
+    }
+
+    .grid-item {
+      height: 600px;
+    }
+
+    .slick-slide {
+      margin: 0 2rem;
+    }
+  }
+
+  #projects {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+// mobile first
+@media screen and (max-width: 768.68px) {
+  .grid-item p {
+    font-size: 1.2rem;
+  }
+
+  .slick-slide {
+    margin: 0 40px;
+
+    .grid-item {
+      width: 300px;
+    }
+  }
+
+  #projects {
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+  }
+}
+
+.slick-slide {
+  margin: 0 40px;
 }
 
 .grid-item {
@@ -35,8 +82,7 @@
   margin: 3vh auto;
   cursor: pointer;
   width: 27vw;
-  height: 30vw;
-
+  height: 500px;
 
   @include flex(column nowrap, center, center);
   &:hover {
@@ -80,5 +126,4 @@
     box-shadow: 0 0 10px $black;
     transition-delay: 400ms;
   }
-
 }

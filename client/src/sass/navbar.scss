@@ -56,6 +56,12 @@ $navbar-horizontal-padding: 15px;
   }
 }
 
+@media screen and (max-width: 430.68px) {
+  .navbar-item {
+    font-size: $navbar-font-size * 0.6 !important;
+  }
+}
+
 .navbar-item {
   margin: 10px $navbar-margin;
   padding: 0 $navbar-horizontal-padding 0 $navbar-horizontal-padding;
@@ -90,7 +96,6 @@ $navbar-horizontal-padding: 15px;
   }
 }
 
-
 #navbar-apply {
   margin-left: $navbar-margin;
   padding: $navbar-horizontal-padding $navbar-margin * 1.5;
@@ -117,7 +122,9 @@ $navbar-horizontal-padding: 15px;
     margin: $navbar-margin;
   }
 
+  #navbar-logo,
   #title {
+    visibility: hidden;
     display: none;
   }
 

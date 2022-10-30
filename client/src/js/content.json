@@ -67,12 +67,14 @@
       "description": "Trey, Adam, and Ethan developed a book lending platform that provides students the functionality to share books throughout the student body. They utilized Node.js for our REST API and PostgreSQL for our database. Lastly, they used HTML, Bootstrap, and JavaScript."
     },
     {
-      "title": "Fox Overflow",
-      "description": "Joshua, Bennett, and Josiah developed a website where students from all disciplines could collaborate on current projects, allowing people to comment, contribute, or create projects. They used the LAMP stack with an Ubuntu server. Subsequently, They built a full PostgreSQL database for the site and developed a user authentication system."
+      "title": "Voluntime",
+      "url": "https://github.com/voluntime",
+      "description": "The Code Jam 2022 winning project was developed by Trey, Adam, Rylan, and Blake. Voluntime creates a community of organizations and individuals who are passionate about volunteering. The project was made open-source and is available on GitHub."
     },
     {
-      "title": "Fox Friend Finder",
-      "description": "Ben, Ashley, Ceci, and Olivia developed a group-finding website meant to make it easier to make new friends despite the pandemic environment. It has a calendar that shows what groups are meeting when, discovery tools for finding just the right group, and a chat room for the members of each group."
+      "title": "Shortest Path Across Campus",
+      "url": "https://shortestpath.herokuapp.com/",
+      "description": "Alex, Daniel, Connor, and Dominic created a web application that uses Dijkstra's algorithm to find the shortest path between two points on campus. They used HTML, CSS, JavaScript, and Bootstrap for the front end and used SVGs to create and manipulate the map."
     },
     {
       "title": "Bruin Dashboard",
