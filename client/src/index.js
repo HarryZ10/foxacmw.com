@@ -1,5 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Auth0Provider } from "@auth0/auth0-react";
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
+
 import Navbar from "./js/navbar.jsx";
 import Home from "./js/home.jsx";
 import About from "./js/about.jsx";
@@ -9,16 +18,8 @@ import Sponsors from "./js/sponsors.jsx";
 import Challenges from "./js/challenges.jsx";
 import Team from "./js/team.jsx";
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect
-} from "react-router-dom";
-
 import "./favicons/favicons";
 import "./index.scss";
-
 
 function Main() {
   return (
@@ -29,7 +30,7 @@ function Main() {
       <Team />
       <Challenges />
       <FAQ />
-      {/* <Projects /> */}
+      <Projects />
       <Sponsors />
     </div>
   );
