@@ -1,4 +1,3 @@
-
 name: "Code Scanning - Action"
 
 on:
@@ -16,11 +15,11 @@ on:
     #        │  │ │ │ │
     #        │  │ │ │ │
     #        *  * * * *
-    - cron: '01 0 * * 0'
+    - cron: "01 0 * * 0"
 
 jobs:
   CodeQL-Build:
-    if: github.repository == 'HarryZ10/live.foxacmw.com'
+    # if: github.repository == 'HarryZ10/live.foxacmw.com'
     # CodeQL runs on ubuntu-latest, windows-latest, and macos-latest
     runs-on: ubuntu-latest
 
