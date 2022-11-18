@@ -16,7 +16,6 @@ import Projects from "./js/projects.jsx";
 import FAQ from "./js/faq.jsx";
 import Sponsors from "./js/sponsors.jsx";
 import Challenges from "./js/challenges.jsx";
-import Countdown from "./js/countdown.jsx";
 import Team from "./js/team.jsx";
 
 import "./favicons/favicons";
@@ -28,8 +27,7 @@ function Main() {
       <Navbar />
       <Home />
       <About />
-      {/* <Team /> */}
-      <Countdown />
+      <Team />
       <Challenges />
       <FAQ />
       <Projects />

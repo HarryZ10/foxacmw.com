@@ -85,7 +85,7 @@ class SingleDeadline extends React.Component {
 
     return (
       <a
-        href="https://forms.gle/ofdWQXiNjAdkSRzs7"
+        href="https://forms.gle/SALNmFXQn7x2hHz49"
         target="_blank"
         rel="noopener noreferrer"
         className={"single-deadline " + timeElapsed}
