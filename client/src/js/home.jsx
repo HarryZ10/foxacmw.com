@@ -13,9 +13,9 @@ class Home extends React.Component {
 
         <div className="rowC">
           <div id="date-text">
-            Check back in 2023 for our next Code Jam!
+            Tentative Date: March 10-12, 2023
             <br />
-            George Fox University
+            Starting in EHS Atrium
             {/* <a
               rel="noopener noreferrer"
               target="_blank"

@@ -22,12 +22,12 @@
       "image" : "team/tbd.jpg"
     }
   ],
-  "ended_cutoff": "2022-03-15T08:00:00.000Z",
-  "live_cutoff": "2022-04-03T08:00:00.000Z",
+  "ended_cutoff": "2022-03-01T08:00:00.000Z",
+  "live_cutoff": "2022-03-12T08:00:00.000Z",
   "deadlines": [
     {
-      "title": "EXTENDED: George Fox Students",
-      "date": "2022-03-14T23:59:59-08:00"
+      "title": "George Fox Students",
+      "date": "2022-03-01T23:59:59-08:00"
     }
   ],
   "challenges_intro":
