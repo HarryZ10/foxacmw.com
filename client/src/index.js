@@ -27,7 +27,7 @@ function Main() {
       <Navbar />
       <Home />
       <About />
-      <Team />
+      {/* <Team /> */}
       <Challenges />
       <FAQ />
       <Projects />

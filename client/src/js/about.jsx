@@ -5,7 +5,7 @@ import { about_body } from "./content.json";
 import Countdown from "./countdown.jsx";
 
 function About() {
-  let videoURL = "https://www.youtube.com/watch?v=t1JBBZinH3Q";
+  // let videoURL = "https://www.youtube.com/watch?v=t1JBBZinH3Q";
   return (
     <div id="about">
       <div className="container">
@@ -19,15 +19,15 @@ function About() {
           <p className="body">{about_body}</p>
         </div>
 
-        <h2 style={videoLIVE}>Welcome to ACM-W!</h2>
-        <div className="about-video center" style={{ paddingTop: "50px" }}>
+        {/* <h2 style={videoLIVE}>Welcome to ACM-W!</h2> */}
+        {/* <div className="about-video center" style={{ paddingTop: "50px" }}>
           <ReactPlayer
             controls="true"
             url={videoURL}
             height="100%"
             width="100%"
           />
-        </div>
+        </div> */}
 
         <div style={{ paddingTop: "100px" }}>
           <p className="intro center">

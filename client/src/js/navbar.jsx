@@ -20,11 +20,11 @@ function Navbar() {
               home
             </AnchorLink>
           </li>
-          <li className="navbar-item">
+          {/* <li className="navbar-item">
             <AnchorLink offset="100" href="#team">
               our board
             </AnchorLink>
-          </li>
+          </li> */}
           <li className="navbar-item">
             <AnchorLink offset="100" href="#challenges">
               innovation

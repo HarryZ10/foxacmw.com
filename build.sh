@@ -22,3 +22,10 @@ npm run build
 mv build ../server/
 
 echo "Build complete!"
+
+# if serve is not installed globally, install it
+if ! [ -x "$(command -v serve)" ]; then
+    npm install -g serve
+fi
+
+serve -s ../server/build
