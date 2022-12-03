@@ -89,7 +89,7 @@
     },
     {
       "q": "Can I get a grade boost in my computer science classes?",
-      "a": "This is a huge opportunity for you to gain a +1-3% boost in your grade. The application of that boost is up to each computer science professor's discretion. Feel free to email your professor to discuss extra credit for participating in the Code Jam."
+      "a": "Email your computer science professor to discuss extra credit for participating in the Code Jam."
     },
     {
       "q": "What is this 'hacker culture'? What is a hackathon?",
@@ -97,11 +97,7 @@
     },
     {
       "q": "Is the Code Jam going to be in-person or virtual?",
-      "a": "We are planning for the Code Jam to be an in-person and unmasked event. All in-person plans are however subject to change with evolving public health guidance explicitly from the George Fox Administration."
-    },
-    {
-      "q": "Are masks required to attend?",
-      "a": "We are following George Fox University's public health guidance, dropping the mask mandate as soon as George Fox does. However, we will continue to provide well-fitting N-95 masks to participants who want one for self-protection."
+      "a": "We are planning for the Code Jam to be an in-person event."
     },
     {
       "q": "I don't have experience with projects, can I still participate?",
