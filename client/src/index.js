@@ -28,7 +28,7 @@ function Main() {
       <Home />
       <About />
       {/* <Team /> */}
-      <Challenges />
+      {/* <Challenges /> */}
       <FAQ />
       <Projects />
       <Sponsors />

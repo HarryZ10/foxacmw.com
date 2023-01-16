@@ -22,12 +22,12 @@
       "image" : "team/tbd.jpg"
     }
   ],
-  "ended_cutoff": "2023-03-01T08:00:00.000Z",
+  "ended_cutoff": "2023-02-10T08:00:00.000Z",
   "live_cutoff": "2023-03-12T08:00:00.000Z",
   "deadlines": [
     {
-      "title": "George Fox Students",
-      "date": "2023-03-01T23:59:59-08:00"
+      "title": "First-Round Guaranteed Admission",
+      "date": "2023-02-10T23:59:59-08:00"
     }
   ],
   "challenges_intro":
@@ -59,7 +59,7 @@
       "description": "Caring for those who are often overlooked"
     }
   ],
-  "about_intro": "Join us to build apps, websites, any software, and community as we bring the magic of the ACM Code Jam back to an in-person format!",
+  "about_intro": "Join us to build DevOp tools, apps, websites, any software, and community as we bring the magic of the Code Jam back!",
   "about_body": "This Code Jam is geared for George Fox University students to turn solutions-oriented and/or creative ideas into real-life, practical projects while working in a welcoming and supportive atmosphere. This is the place to showcase your creativity and innovation, as well as create something super cool outside of the classroom.",
   "projects": [
     {

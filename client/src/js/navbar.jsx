@@ -70,9 +70,9 @@ function Navbar() {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://forms.gle/SALNmFXQn7x2hHz49"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScSowAjI15ieiIxyZtmxBx1fc8zigUzd13_zx1M8ET_Bf_fjg/viewform"
               >
-                interest form
+                register
               </a>
             </li>
           )}

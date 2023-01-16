@@ -13,9 +13,9 @@ class Home extends React.Component {
 
         <div className="rowC">
           <div id="date-text">
-            Tentative Date: March 10-12, 2023
-            <br />
-            Starting in EHS Atrium
+            March 10-12, 2023
+            {/* <br /> */}
+            {/* Starting in EHS Atrium */}
             {/* <a
               rel="noopener noreferrer"
               target="_blank"
