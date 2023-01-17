@@ -1,51 +1,5 @@
 import React from "react";
-import styled from "styled-components";
 import codejam_text from "../png/LogoOnly.png";
-
-const Button = styled.button`
-  background: linear-gradient(86.93deg, #004f94 2.37%, #205e93 106.02%);
-  border-radius: 10px;
-  color: white;
-  border: transparent;
-  padding: 15px;
-  font-size: 15px;
-  font-weight: 400;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-right: 20px;
-  margin-top: 20px;
-  font-family: Poppins;
-  width: fit-content;
-  &:hover {
-    box-shadow: 0px 0px 15px 0px #e4e4e4;
-    transform: scale(1.1);
-    background-color: #fff;
-    cursor: pointer;
-  }
-  transition: 0.2s all;
-`;
-
-const SponsorButton = styled.button`
-  background: linear-gradient(86.93deg, #004f94 2.37%, #205e93 106.02%);
-  border-radius: 10px;
-  color: white;
-  border: transparent;
-  padding: 15px;
-  font-weight: 400;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 20px;
-  font-size: 15px;
-  &:hover {
-    box-shadow: 0px 0px 15px 0px #e4e4e4;
-    transform: scale(1.1);
-    background-color: #fff;
-  }
-  transition: 0.2s all;
-  cursor: pointer;
-  font-family: Poppins;
-  width: fit-content;
-`;
 
 const ButtnGroup = {
   display: "flex",
@@ -119,26 +73,26 @@ class Home extends React.Component {
           </h1>
           <div className="buttonRow" style={ButtnGroup}>
             <a
+              id="apply"
+              className="mainButton applyLink-1"
               href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScSowAjI15ieiIxyZtmxBx1fc8zigUzd13_zx1M8ET_Bf_fjg/viewform"
               target="_blank"
               rel="noopener noreferrer"
               style={{ width: "fit-content" }}
             >
-              <Button className="applyNow">Apply Now</Button>
+              Apply Now
             </a>
 
             <a
+              className="mainButton applyLink-2"
               href="mailto:acm.gfu@gmail.com?Subject=ACM%20Sponsorship%20Interest"
               target="_blank"
               rel="noopener noreferrer"
               style={{ width: "fit-content" }}
             >
-              <SponsorButton className="sponsorNow">
-                Sponsor Code Jam
-              </SponsorButton>
+              Sponsor Code Jam
             </a>
           </div>
-
           <img
             src={codejam_text}
             alt="Code Jam Logo"
