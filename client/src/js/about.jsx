@@ -1,5 +1,5 @@
 import React from "react";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import { about_intro } from "./content.json";
 import { about_body } from "./content.json";
 import Countdown from "./countdown.jsx";
@@ -42,13 +42,13 @@ function About() {
   );
 }
 
-const videoLIVE = {
-  color: "#ffcf3f",
-  fontSize: "3rem",
-  fontWeight: "bold",
-  textAlign: "center",
-  marginBottom: "1rem",
-  marginTop: "2rem",
-};
+// const videoLIVE = {
+//   color: "#ffcf3f",
+//   fontSize: "3rem",
+//   fontWeight: "bold",
+//   textAlign: "center",
+//   marginBottom: "1rem",
+//   marginTop: "2rem",
+// };
 
 export default About;

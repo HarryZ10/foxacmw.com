@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Auth0Provider } from "@auth0/auth0-react";
+// import { Auth0Provider } from "@auth0/auth0-react";
 
 import {
   BrowserRouter as Router,
@@ -15,8 +15,8 @@ import About from "./js/about.jsx";
 import Projects from "./js/projects.jsx";
 import FAQ from "./js/faq.jsx";
 import Sponsors from "./js/sponsors.jsx";
-import Challenges from "./js/challenges.jsx";
-import Team from "./js/team.jsx";
+// import Challenges from "./js/challenges.jsx";
+// import Team from "./js/team.jsx";
 
 import "./favicons/favicons";
 import "./index.scss";

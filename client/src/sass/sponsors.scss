@@ -1,12 +1,10 @@
-
 #sponsors.container {
   position: relative;
-  background-color: $offwhite;
+  background-color: $white;
   // padding-top: $large-space;
   padding-bottom: $large-space;
   padding-top: $large-space;
   @include flex(column nowrap, flex-start, center);
-  margin-top: $small-space;
   min-height: 300px;
   max-width: 100%;
 
@@ -16,6 +14,7 @@
   }
 
   .level {
+    z-index: 0;
     @include flex(row wrap, center, center);
     width: 80%;
     margin: 1rem auto;
@@ -42,7 +41,6 @@
     }
 
     &.level-big {
-
       margin-top: 2.5rem;
       margin-bottom: 3.5rem;
     }
@@ -61,12 +59,11 @@
     &.level-medium {
       margin-bottom: 2.5rem;
       min-height: 250px;
-      
     }
 
     &.level-medium img {
       width: auto;
-       height: 50px;
+      height: 50px;
     }
 
     &.level-medium a {
@@ -76,7 +73,6 @@
       // width: 20%;
       // min-width: 70px;
       margin: 10px 10px;
-      
     }
 
     &.level-small {
@@ -96,12 +92,9 @@
       min-height: 45px;
       max-height: 50px;
 
-
-
       margin: 0 5px;
       margin: 15px;
       top: 50%;
-
     }
 
     &.level-smallest {
@@ -135,8 +128,21 @@
     a {
       margin: 0rem;
     }
+  }
+}
 
-    & + .level {
-    }
+// div "building" with img class "building"
+// need to stick image to bottom of webpage
+.building {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
