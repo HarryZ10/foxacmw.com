@@ -7,12 +7,6 @@ const ButtnGroup = {
   marginTop: "30px",
 };
 
-const ButtnGroup = {
-  display: "flex",
-  flexDirection: "row",
-  marginTop: "30px",
-};
-
 class Home extends React.Component {
   render() {
     return (
@@ -87,7 +81,6 @@ class Home extends React.Component {
               style={{ width: "fit-content" }}
             >
               Apply Now
-
             </a>
 
             <a
