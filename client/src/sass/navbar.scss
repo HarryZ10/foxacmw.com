@@ -10,7 +10,7 @@ $navbar-horizontal-padding: 15px;
   top: 0;
   z-index: 101;
 
-  background-color: $gold;
+  background-color: $navy;
   height: 80px;
   width: 100vw;
 
@@ -68,12 +68,12 @@ $navbar-horizontal-padding: 15px;
   font-size: $navbar-font-size;
 
   a {
-    color: #000;
-  }
-
-  &:hover a {
     color: $offwhite;
   }
+
+  // &:hover a {
+  //   color: $light-navy;
+  // }
 }
 
 .special-link a {
@@ -81,8 +81,8 @@ $navbar-horizontal-padding: 15px;
 }
 
 .apply-link {
-  color: $white;
-  background-color: $yellow;
+  color: $dark-navy;
+  background-color: $apply-link-color;
   padding: 9px;
   font-weight: bold;
   border-radius: 0.25rem;
@@ -92,7 +92,7 @@ $navbar-horizontal-padding: 15px;
   &:hover,
   &:focus {
     transform: scale(1.05);
-    // color: #fff;
+    // color: $dark-navy;
   }
 }
 
@@ -109,7 +109,7 @@ $navbar-horizontal-padding: 15px;
 }
 
 #title {
-  color: #000;
+  color: $offwhite;
 }
 
 @media screen and (max-width: 1220px) {

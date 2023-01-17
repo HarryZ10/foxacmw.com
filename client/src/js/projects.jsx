@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // const PROJECT_INTERVAL = 2500;
-const colors = ["#edf5ee", "#edf5ee", "#edf5ee", "#edf5ee"];
+const colors = ["#1e5398", "#1e5398", "#1e5398", "#1e5398"];
 
 function makeColors() {
   var arr = [];
@@ -19,7 +19,7 @@ function makeColors() {
 function Projects() {
   return (
     <div id="projects">
-      <h1 className="section-heading">Past Projects</h1>
+      {/* <h1 className="section-heading">Past Projects</h1> */}
       <ProjectSlider />
     </div>
   );

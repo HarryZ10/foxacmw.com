@@ -1,38 +1,44 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&display=swap");
+
 /* Color Palette */
 $dark-gray: #535152;
 $light-gray: #696e76;
 $green: #00e174;
 $white: #ffffff;
 $black: #000000;
-$offwhite: #edf5ee;
+$offwhite: #ececec;
 
-
-$background-color: #070910;
+$background-color: $white;
 $transparent-background-color: hsla(339, 77%, 99%, 0.65);
-$text-color: $offwhite;
+$text-color: $black;
 $dark-blue: #050836;
 $blue: #a7dde8;
 $pink: #e51b5d;
 $orange: #f46e20;
-$amaranth: #EF3E65;
+$amaranth: #ef3e65;
 $red: #dd3b3b;
 $yellow: #ffc623;
 
-
 /* Color Palette 2022 */
-$lighter-green: #E5FFEA;
-$light-green: #A4ECD2;
-$main-green: #51E1AD;
-$dark-green: #0CB08A;
-$darker-green: #15766A;
+$lighter-green: #e5ffea;
+$light-green: #a4ecd2;
+$main-green: #51e1ad;
+$dark-green: #0cb08a;
+$darker-green: #15766a;
 $gold: #ffcf3f;
 
-
+// Color Palette 2023
+$navy: #083d6b;
+$dark-navy: #003d72;
+$apply-link-color: #004f94;
+$light-navy: #93cdff;
 
 //$background-color: #edf5ee;
 
 /* Font Styles */
-$base-font-family: 'Avenir', proxima-nova, sans-serif;
+$base-font-family: "Avenir", proxima-nova, sans-serif;
 $base-font-size: 16px;
 $heavy-font-weight: 700;
 $medium-font-size: $base-font-size + 2;
@@ -85,7 +91,7 @@ h2.section-subheading {
 .apply-button {
   border: $border-style #00000000;
   box-sizing: border-box;
-  background-color: $dark-green;
+  background-color: $navy;
   color: white;
   display: block;
   font-weight: $heavy-font-weight;
@@ -98,12 +104,14 @@ h2.section-subheading {
     background: transparent;
     color: #fff;
     font-size: $base-font-size * 1.1;
-    border: $border-style $main-green;
+    border: $border-style $navy;
   }
 }
 
-
-a:not([href*='foxacmw.com']):not([href^='#']):not([href*='forms.gle']):not([href*="google.com"]):not([href^='/']):after {
-  font-family: 'FontAwesome';
+a:not([href*="foxacmw.com"]):not([href^="#"]):not([href*="forms.gle"]):not(
+    [href*="google.com"]
+  ):not([href^="/"]):not([href^="mailto"])
+  :after {
+  font-family: "FontAwesome";
   content: " \f08e";
 }

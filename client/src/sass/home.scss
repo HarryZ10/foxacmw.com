@@ -1,12 +1,12 @@
 .apply-button {
   margin-top: $small-space / 2;
-  background-color: $gold;
+  background-color: $navy;
   padding: 0.5vh 2vw 0.5vh 2vw;
   border-radius: 5px;
-  color: #000000;
+  color: $offwhite;
   &:hover {
     transform: scale(1.05);
-    color: $black;
+    color: $offwhite;
   }
 }
 
@@ -38,6 +38,28 @@
     @media screen and (max-width: 750px) {
       min-height: 20vh;
     }
+  }
+
+  #gradient_text {
+    background: linear-gradient(0deg, #083d6b 20.11%, #1f96ff 150.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    background-clip: text;
+    font-family: "Poppins", sans-serif;
+    text-fill-color: transparent;
+  }
+
+  #year-text {
+    background: linear-gradient(
+      180deg,
+      #083d6b 0%,
+      rgba(255, 255, 255, 0.47) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
 
   #arm {
@@ -76,7 +98,7 @@
   #date-text {
     max-width: 90vw;
     text-align: left;
-    color: $gold;
+    color: $dark-navy;
     font-size: $subheading-font-size;
     font-weight: bold;
     margin-top: 100px;
@@ -149,4 +171,10 @@
   -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@media screen and (max-width: 1192px) {
+  .codejam-text {
+    display: none;
+  }
 }

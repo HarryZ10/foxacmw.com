@@ -1,6 +1,6 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { ended_cutoff, live_cutoff } from "./content.json";
+import { ended_cutoff } from "./content.json";
 
 function Navbar() {
   return (
@@ -25,11 +25,11 @@ function Navbar() {
               our board
             </AnchorLink>
           </li> */}
-          <li className="navbar-item">
+          {/* <li className="navbar-item">
             <AnchorLink offset="100" href="#challenges">
               innovation
             </AnchorLink>
-          </li>
+          </li> */}
           <li className="navbar-item">
             <AnchorLink offset="100" href="#faq">
               code jam faq
@@ -72,7 +72,7 @@ function Navbar() {
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLScSowAjI15ieiIxyZtmxBx1fc8zigUzd13_zx1M8ET_Bf_fjg/viewform"
               >
-                register
+                apply now
               </a>
             </li>
           )}
