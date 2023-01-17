@@ -27,7 +27,7 @@
     max-width: 80vw;
   }
   @media screen and (max-width: 450px) {
-    padding-top: 15vh;
+    padding-top: 20vh;
     img {
       margin-bottom: 25px;
     }
@@ -176,5 +176,41 @@
 @media screen and (max-width: 1192px) {
   .codejam-text {
     display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .buttonRow {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .applyNow {
+    margin-right: 0px;
+  }
+
+  .rowIntro {
+    padding-left: 5% !important;
+    padding-right: 5%;
+  }
+
+  h1 {
+    font-size: 45px !important;
+  }
+
+  #subtext_intro {
+    font-size: 20px !important;
+    span {
+      font-size: 20px !important;
+    }
+  }
+
+  #subtext_intro_2 {
+    font-size: 15px !important;
+  }
+
+  #date-text {
+    font-size: 20px !important;
   }
 }

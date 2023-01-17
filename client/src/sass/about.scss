@@ -91,6 +91,11 @@
     font-size: $subheading-font-size;
     text-align: center;
     font-weight: $heavy-font-weight;
+
+    @media screen and (max-width: 768px) {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
   }
 
   .body {
@@ -100,6 +105,11 @@
 
     @media screen and (min-width: $max-width) {
       text-align: justify;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
     }
   }
 }

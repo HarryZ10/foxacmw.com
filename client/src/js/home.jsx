@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import codejam_text from "../png/LogoOnly.png";
 
 const Button = styled.button`
@@ -47,17 +47,23 @@ const SponsorButton = styled.button`
   width: fit-content;
 `;
 
+const ButtnGroup = {
+  display: "flex",
+  flexDirection: "row",
+  marginTop: "30px",
+};
+
 class Home extends React.Component {
   render() {
     return (
       <div id="home">
         <div
+          className="rowIntro"
           style={{
             display: "flex",
             flexDirection: "column",
             marginTop: "5%",
             paddingLeft: "10%",
-            position: "absolute",
             width: "100%",
           }}
         >
@@ -65,6 +71,7 @@ class Home extends React.Component {
             Code Jam <span id="year-text">2023</span>
           </h1>
           <h1
+            id="subtext_intro"
             style={{
               color: "black",
               fontWeight: "600",
@@ -86,6 +93,7 @@ class Home extends React.Component {
           </h1>
 
           <h1
+            id="subtext_intro_2"
             style={{
               color: "black",
               fontWeight: "300",
@@ -98,29 +106,25 @@ class Home extends React.Component {
             <br /> to build the <span id="">next big thing</span>
           </h1>
           <h1
+            id="date-text"
             style={{
               marginTop: "25px",
               fontSize: "20px",
               fontWeight: "600",
               color: "black",
+              textAlign: "left",
             }}
           >
             March 10th - 12th, 2023 @ George Fox University
           </h1>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              marginTop: "30px",
-            }}
-          >
+          <div className="buttonRow" style={ButtnGroup}>
             <a
               href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScSowAjI15ieiIxyZtmxBx1fc8zigUzd13_zx1M8ET_Bf_fjg/viewform"
               target="_blank"
               rel="noopener noreferrer"
               style={{ width: "fit-content" }}
             >
-              <Button>Apply Now</Button>
+              <Button className="applyNow">Apply Now</Button>
             </a>
 
             <a
@@ -129,7 +133,9 @@ class Home extends React.Component {
               rel="noopener noreferrer"
               style={{ width: "fit-content" }}
             >
-              <SponsorButton>Sponsor Code Jam</SponsorButton>
+              <SponsorButton className="sponsorNow">
+                Sponsor Code Jam
+              </SponsorButton>
             </a>
           </div>
 
