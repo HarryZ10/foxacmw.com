@@ -1,133 +1,136 @@
 {
-  "board_members" : [
-    {
-      "name" : "Harry",
-      "pos" : "President",
-      "email" : "harry@foxacmw.com",
-      "image" : "team/harry.jpg"
-    },
-        {
-      "name" : "Cassie",
-      "pos" : "Executive Vice President",
-      "image" : "team/tbd.jpg"
-    },
-    {
-      "name" : "Alex",
-      "pos" : "Associate VP of Finance",
-      "image" : "team/tbd.jpg"
-    },
-    {
-      "name" : "Dominick",
-      "pos" : "Associate VP of Partnerships",
-      "image" : "team/tbd.jpg"
-    }
-  ],
-  "ended_cutoff": "2023-02-10T08:00:00.000Z",
-  "live_cutoff": "2023-03-12T08:00:00.000Z",
-  "deadlines": [
-    {
-      "title": "First-Round Guaranteed Admission",
-      "date": "2023-02-10T23:59:59-08:00"
-    }
-  ],
-  "challenges_intro":
-    "Code Jam 3.0, the third iteration, is founded by George Fox University's first Premier Hackathon organization. Our theme this year is about starting a non-profit: addressing deeply impactful issues and designing creative, unique solutions. We’ve identified five global and technological challenges that we think have tons of potential for innovation. Across each of these challenges, we’ve scaffolded resources like potential project ideas and toolkits, and more to help get you get started. There isn't a strict guideline for what you should work on, but here are some of our focus areas:",
-  "challenges": [
-    {
-      "name": "health",
-      "logo": "images/challenges/health.png",
-      "description": "Giving nutrition & wellness for all people"
-    },
-    {
-      "name": "sustainability",
-      "logo": "images/challenges/sustain.png",
-      "description": "Providing a clean home for all"
-    },
-    {
-      "name": "education",
-      "logo": "images/challenges/ed.png",
-      "description": "Offering a learning mind to expand our thinking"
-    },
-    {
-      "name": "Social Change",
-      "logo": "images/challenges/social-change.png",
-      "description": "Maintaining and advocating for justice for all"
-    },
-    {
-      "name": "Accessibility",
-      "logo": "images/challenges/non-profit.png",
-      "description": "Caring for those who are often overlooked"
-    }
-  ],
-  "about_intro": "Join us to build DevOp tools, apps, websites, any software, and community as we bring the magic of the Code Jam back!",
-  "about_body": "This Code Jam is geared for George Fox University students to turn solutions-oriented and/or creative ideas into real-life, practical projects while working in a welcoming and supportive atmosphere. This is the place to showcase your creativity and innovation, as well as create something super cool outside of the classroom.",
-  "projects": [
-    {
-      "title": "Book Lend",
-      "description": "Trey, Adam, and Ethan developed a book lending platform that provides students the functionality to share books throughout the student body. They utilized Node.js for our REST API and PostgreSQL for our database. Lastly, they used HTML, Bootstrap, and JavaScript."
-    },
-    {
-      "title": "Voluntime",
-      "url": "https://github.com/voluntime",
-      "description": "The Code Jam 2022 winning project was developed by Trey, Adam, Rylan, and Blake. Voluntime creates a community of organizations and individuals who are passionate about volunteering. The project was made open-source and is available on GitHub."
-    },
-    {
-      "title": "Shortest Path Across Campus",
-      "url": "https://shortestpath.herokuapp.com/",
-      "description": "Alex, Daniel, Connor, and Dominic created a web application that uses Dijkstra's algorithm to find the shortest path between two points on campus. They used HTML, CSS, JavaScript, and Bootstrap for the front end and used SVGs to create and manipulate the map."
-    },
-    {
-      "title": "Bruin Dashboard",
-      "url": "https://bruin-dashboard.netlify.app",
-      "description": "Harry, Nicolle, and Josh developed a dashboard for the Bruin community to keep track of GFU events, weather, and NYT articles. They used HTML, CSS, and JavaScript, using the React framework. They used the New York Times and OpenWeatherMap API to collect the data, using Material-UI to display it."
-    }
-  ],
-  "faq": [
-    {
-      "q": "What if I don’t know how to code?",
-      "a": "The Code Jam event is the perfect time and place to learn. We provide starter code repositories, as well as beginner-friendly workshops and mentors to help you build something you can be proud of."
-    },
-    {
-      "q": "Can I get a grade boost in my computer science classes?",
-      "a": "Email your computer science professor to discuss extra credit for participating in the Code Jam."
-    },
-    {
-      "q": "What is this 'hacker culture'? What is a hackathon?",
-      "a": "A hackathon is where you turn your fun ideas into real projects. We provide a help desk, mentors, fun activities, speakers, workshops, food, friends, and so much more. You take care of hacking; we’ll take care of you."
-    },
-    {
-      "q": "Is the Code Jam going to be in-person or virtual?",
-      "a": "We are planning for the Code Jam to be an in-person event."
-    },
-    {
-      "q": "I don't have experience with projects, can I still participate?",
-      "a": "Absolutely, project experience can be a monumental opportunity for you to apply your technical skills and develop innovative and creative ideas."
-    },
-    {
-      "q": "What if I don’t have a team or idea?",
-      "a": "Not a problem! The ACM-W leadership team will consider your application and help you form a team of two to four other hackers. We will also provide design thinking handouts to help you get started with an idea 2-3 days before the hacking starts."
-    },
-    {
-      "q": "What can I build?",
-      "a": "We accept anything, really. iOS, android, web, mobile, gaming, VR...you name it, we’ll support it, as long as it can be properly presented and judged via Gitlab and Devpost."
-    },
-    {
-      "q": "What is the cost?",
-      "a": "Nothing! It's all free and accessible for hackers. It’s our pleasure to bring in our resources, workshops, free food, swag, and prizes. Thus, we're committed to making all ACM events accessible and free!"
-    },
-    {
-      "link": "https://github.com/FoxHacks/policies",
-      "q": "What is the ACM-W code of conduct?",
-      "textBefore": "ACM abides by ",
-      "textIn": "this Code of Conduct",
-      "textAfter": ", adapted from the Hack Code of Conduct, and the GFU community lifestyle agreement that you may have also signed. Every Code Jam applicant must agree to these policies to be considered for participation. ACM-W is and will be a safe place where everyone is welcome."
-    },
-    {
-      "link": "mailto:acm.gfu@gmail.com",
-      "q": "I have some other question!",
-      "textBefore": "Email us at ",
-      "textIn": "acm.gfu@gmail.com",
-      "textAfter": ". We gotchu. <3"
-    }
-  ]
+	"board_members": [
+		{
+			"name": "Harry",
+			"pos": "President",
+			"email": "harry@foxacmw.com",
+			"image": "team/harry.jpg"
+		},
+		{
+			"name": "Cassie",
+			"pos": "Executive Vice President",
+			"image": "team/tbd.jpg"
+		},
+		{
+			"name": "Alex",
+			"pos": "Associate VP of Finance",
+			"image": "team/tbd.jpg"
+		},
+		{
+			"name": "Dominick",
+			"pos": "Associate VP of Partnerships",
+			"image": "team/tbd.jpg"
+		}
+	],
+	"ended_cutoff": "2023-02-27T08:00:00.000Z",
+	"live_cutoff": "2023-03-12T08:00:00.000Z",
+	"deadlines": [
+		{
+			"title": "GFU Priority Admission",
+			"date": "2023-02-10T23:59:59-08:00"
+		},
+		{
+			"title": "GFU Regular Admission",
+			"date": "2023-02-27T23:59:59-08:00"
+		}
+	],
+	"challenges_intro": "Code Jam 3.0, the third iteration, is founded by George Fox University's first Premier Hackathon organization. Our theme this year is about starting a non-profit: addressing deeply impactful issues and designing creative, unique solutions. We’ve identified five global and technological challenges that we think have tons of potential for innovation. Across each of these challenges, we’ve scaffolded resources like potential project ideas and toolkits, and more to help get you get started. There isn't a strict guideline for what you should work on, but here are some of our focus areas:",
+	"challenges": [
+		{
+			"name": "health",
+			"logo": "images/challenges/health.png",
+			"description": "Giving nutrition & wellness for all people"
+		},
+		{
+			"name": "sustainability",
+			"logo": "images/challenges/sustain.png",
+			"description": "Providing a clean home for all"
+		},
+		{
+			"name": "education",
+			"logo": "images/challenges/ed.png",
+			"description": "Offering a learning mind to expand our thinking"
+		},
+		{
+			"name": "Social Change",
+			"logo": "images/challenges/social-change.png",
+			"description": "Maintaining and advocating for justice for all"
+		},
+		{
+			"name": "Accessibility",
+			"logo": "images/challenges/non-profit.png",
+			"description": "Caring for those who are often overlooked"
+		}
+	],
+	"about_intro": "Join us to build DevOp tools, apps, websites, any software, and community as we bring the magic of the Code Jam back!",
+	"about_body": "This Code Jam is geared for George Fox University students to turn solutions-oriented and/or creative ideas into real-life, practical projects while working in a welcoming and supportive atmosphere. This is the place to showcase your creativity and innovation, as well as create something super cool outside of the classroom.",
+	"projects": [
+		{
+			"title": "Book Lend",
+			"description": "Trey, Adam, and Ethan developed a book lending platform that provides students the functionality to share books throughout the student body. They utilized Node.js for our REST API and PostgreSQL for our database. Lastly, they used HTML, Bootstrap, and JavaScript."
+		},
+		{
+			"title": "Voluntime",
+			"url": "https://github.com/voluntime",
+			"description": "The Code Jam 2022 winning project was developed by Trey, Adam, Rylan, and Blake. Voluntime creates a community of organizations and individuals who are passionate about volunteering. The project was made open-source and is available on GitHub."
+		},
+		{
+			"title": "Shortest Path Across Campus",
+			"url": "https://shortestpath.herokuapp.com/",
+			"description": "Alex, Daniel, Connor, and Dominic created a web application that uses Dijkstra's algorithm to find the shortest path between two points on campus. They used HTML, CSS, JavaScript, and Bootstrap for the front end and used SVGs to create and manipulate the map."
+		},
+		{
+			"title": "Bruin Dashboard",
+			"url": "https://bruin-dashboard.netlify.app",
+			"description": "Harry, Nicolle, and Josh developed a dashboard for the Bruin community to keep track of GFU events, weather, and NYT articles. They used HTML, CSS, and JavaScript, using the React framework. They used the New York Times and OpenWeatherMap API to collect the data, using Material-UI to display it."
+		}
+	],
+	"faq": [
+		{
+			"q": "What if I don’t know how to code?",
+			"a": "The Code Jam event is the perfect time and place to learn. We provide starter code repositories, as well as beginner-friendly workshops and mentors to help you build something you can be proud of."
+		},
+		{
+			"q": "Can I get a grade boost in my computer science classes?",
+			"a": "Email your computer science professor to discuss extra credit for participating in the Code Jam."
+		},
+		{
+			"q": "What is this 'hacker culture'? What is a hackathon?",
+			"a": "A hackathon is where you turn your fun ideas into real projects. We provide a help desk, mentors, fun activities, speakers, workshops, food, friends, and so much more. You take care of hacking; we’ll take care of you."
+		},
+		{
+			"q": "Is the Code Jam going to be in-person or virtual?",
+			"a": "We are planning for the Code Jam to be an in-person event."
+		},
+		{
+			"q": "I don't have experience with projects, can I still participate?",
+			"a": "Absolutely, project experience can be a monumental opportunity for you to apply your technical skills and develop innovative and creative ideas."
+		},
+		{
+			"q": "What if I don’t have a team or idea?",
+			"a": "Not a problem! The ACM-W leadership team will consider your application and help you form a team of two to four other hackers. We will also provide design thinking handouts to help you get started with an idea 2-3 days before the hacking starts."
+		},
+		{
+			"q": "What can I build?",
+			"a": "We accept anything, really. iOS, android, web, mobile, gaming, VR...you name it, we’ll support it, as long as it can be properly presented and judged via Gitlab and Devpost."
+		},
+		{
+			"q": "What is the cost?",
+			"a": "Nothing! It's all free and accessible for hackers. It’s our pleasure to bring in our resources, workshops, free food, swag, and prizes. Thus, we're committed to making all ACM events accessible and free!"
+		},
+		{
+			"link": "https://github.com/FoxHacks/policies",
+			"q": "What is the ACM-W code of conduct?",
+			"textBefore": "ACM abides by ",
+			"textIn": "this Code of Conduct",
+			"textAfter": ", adapted from the Hack Code of Conduct, and the GFU community lifestyle agreement that you may have also signed. Every Code Jam applicant must agree to these policies to be considered for participation. ACM-W is and will be a safe place where everyone is welcome."
+		},
+		{
+			"link": "mailto:acm.gfu@gmail.com",
+			"q": "I have some other question!",
+			"textBefore": "Email us at ",
+			"textIn": "acm.gfu@gmail.com",
+			"textAfter": ". We gotchu. <3"
+		}
+	]
 }

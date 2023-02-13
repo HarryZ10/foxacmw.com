@@ -57,9 +57,9 @@ function Navbar() {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://forms.gle/YxomhWQR7J119TaN7"
+                href="https://live.foxacmw.com"
               >
-                join us
+                live dashboard
               </a>
             </li>
           ) : (
