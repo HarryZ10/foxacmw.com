@@ -26,18 +26,14 @@
 	"live_cutoff": "2023-03-12T08:00:00.000Z",
 	"deadlines": [
 		{
-			"title": "GFU Priority Admission",
-			"date": "2023-02-10T23:59:59-08:00"
-		},
-		{
-			"title": "GFU Regular Admission",
-			"date": "2023-02-27T23:59:59-08:00"
+			"title": "Open to All",
+			"date": "2023-03-09T23:59:59-08:00"
 		}
 	],
-	"challenges_intro": "Code Jam 3.0, the third iteration, is founded by George Fox University's first Premier Hackathon organization. Our theme this year is about starting a non-profit: addressing deeply impactful issues and designing creative, unique solutions. We’ve identified five global and technological challenges that we think have tons of potential for innovation. Across each of these challenges, we’ve scaffolded resources like potential project ideas and toolkits, and more to help get you get started. There isn't a strict guideline for what you should work on, but here are some of our focus areas:",
+	"challenges_intro": "Code Jam 3.0 has revamped its challenges into general tracks that a project can be on. As a Chapter tied to a University with quaker backgrounds, we strongly believe in addressing deeply impactful issues and designing creative, unique solutions. We have identified five tracks that we think have tons of potential for innovation and originality. There isn't a strict guideline for what you should work on, but here are some of our tracks:",
 	"challenges": [
 		{
-			"name": "health",
+			"name": "healthcare",
 			"logo": "images/challenges/health.png",
 			"description": "Giving nutrition & wellness for all people"
 		},
@@ -52,14 +48,14 @@
 			"description": "Offering a learning mind to expand our thinking"
 		},
 		{
-			"name": "Social Change",
+			"name": "social change",
 			"logo": "images/challenges/social-change.png",
 			"description": "Maintaining and advocating for justice for all"
 		},
 		{
-			"name": "Accessibility",
+			"name": "accessibility",
 			"logo": "images/challenges/non-profit.png",
-			"description": "Caring for those who are often overlooked"
+			"description": "Caring for those who are often overlooked or automating manual tasks in our community"
 		}
 	],
 	"about_intro": "Join us to build DevOp tools, apps, websites, any software, and community as we bring the magic of the Code Jam back!",

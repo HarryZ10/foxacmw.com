@@ -5,7 +5,7 @@ function Challenges() {
   return(
     <div id="challenges">
       <div className="stripe accent-orange"/>
-      <h1 className="section-heading">innovation at fox</h1>
+      <h1 className="section-heading">tracks</h1>
       <div className="section-intro">{challenges_intro}</div>
       <div className="container">
         {challenges.map((challenge, i) => {
@@ -19,7 +19,7 @@ function Challenges() {
 function Challenge(props) {
   return(
     <div className="challenge">
-      <img src={props.logo} alt={props.name + " logo"} />
+      {/* <img src={props.logo} alt={props.name + " logo"} /> */}
       <h1>{props.name}</h1>
       <p>{props.description}</p>
     </div>
