@@ -8,13 +8,13 @@
   background-color: $background-color;
 
   .section-heading {
-    padding-top: 100px;
+    padding-top: 0px;
     margin-bottom: $small-space;
     color: $dark-navy;
   }
 
   .section-intro {
-    color: $white;
+    color: $black;
     font-size: $subheading-font-size * 0.75;
     width: $max-width;
     max-width: 80vw;
@@ -31,7 +31,7 @@
 }
 
 .challenge {
-  background-color: $black;
+  background-color: $offwhite;
   margin: 1vw;
   border-radius: 20px;
   width: 27vw;
@@ -48,9 +48,13 @@
 
   &:hover {
     transform: scale(1.05);
-    background-color: $offwhite;
+    background-color: $navy;
     box-shadow: 0px 0px 15px 0px #e4e4e4;
-    color: $black;
+    color: $white;
+
+    p, h1 {
+      color: $white;
+    }
   }
 
   @media screen and (max-width: 750px) {
@@ -75,10 +79,12 @@
     text-transform: lowercase;
     margin-bottom: $small-space;
     font-weight: $heavy-font-weight;
+    color: $black;
   }
 
   p {
     font-size: $medium-font-size;
     text-align: center;
+    color: $black;
   }
 }

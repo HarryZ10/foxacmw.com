@@ -29,14 +29,14 @@ function About() {
           />
         </div> */}
 
-        <div style={{ paddingTop: "100px" }}>
+        {/* <div style={{ paddingTop: "100px" }}>
           <p className="intro center">
             Our goal as a part of ACM-W is to create a community within our
             Computer Science and Information Systems department. Even though we
             are a chapter focusing on women inclusion in tech, we want to
             provide a positive environment for everyone.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
