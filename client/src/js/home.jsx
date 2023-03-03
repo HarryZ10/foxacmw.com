@@ -39,11 +39,11 @@ class Home extends React.Component {
                 fontWeight: "600",
               }}
             >
-              George Fox's
+              Registration
             </span>{" "}
-            premiere hackathon is back
+            is now open to
             <br />
-            <span id="">in-person!</span>
+            <span id="">high school seniors</span>
           </h1>
 
           <h1
