@@ -13,6 +13,12 @@
     margin-left: 0px;
   }
 
+  .section-heading {
+    color: $dark-navy;
+    padding-bottom: 60px;
+    z-index: 100;
+  }
+
   .level {
     z-index: 0;
     @include flex(row wrap, center, center);

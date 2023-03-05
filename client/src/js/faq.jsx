@@ -33,7 +33,7 @@ const FAQItem = ({ q, a, link, textBefore, textIn, textAfter, i }) => {
 const FAQ = () => {
   return (
     <div id="faq">
-      <h1 className="section-heading">code jam faq</h1>
+      <h1 className="section-heading">FAQ</h1>
       <div className="faq-container">
         {faq.map((item, i) => (
           <FAQItem {...item} i={i} />

@@ -13,10 +13,10 @@
 #home {
   @include flex(column nowrap, flex-start, center);
   @media screen and (min-width: 450px) {
-    height: 100vh;
+    height: 100;
     width: 100vw;
-    min-height: calc(500px + 45vh);
-    padding-top: 20vh;
+    min-height: 550px;
+    padding-top: 80px;
   }
   @media screen and (max-width: 450px) {
     margin: $large-space 0;
@@ -27,7 +27,7 @@
     max-width: 80vw;
   }
   @media screen and (max-width: 450px) {
-    padding-top: 20vh;
+    padding-top: 60px;
     img {
       margin-bottom: 25px;
     }
@@ -249,6 +249,12 @@
 
 .mainButton #apply {
   margin-right: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  .mainButton {
+    margin-right: 0px;
+  }
 }
 
 .mainButton:hover {

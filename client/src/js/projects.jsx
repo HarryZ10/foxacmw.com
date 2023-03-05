@@ -19,7 +19,7 @@ function makeColors() {
 function Projects() {
   return (
     <div id="projects">
-      {/* <h1 className="section-heading">Past Projects</h1> */}
+      <h1 className="section-heading">Past Projects</h1>
       <ProjectSlider />
     </div>
   );
@@ -82,9 +82,6 @@ class ProjectSlider extends React.Component {
 }
 
 class GridItem extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
 
   render() {
     return (

@@ -127,15 +127,10 @@ $navbar-horizontal-padding: 15px;
     display: none;
   }
 
-  .navbar-item.about-link {
+  .navbar-item.home-tab,
+  .navbar-item.sponsor-tab,
+  .navbar-item.track-tab  {
     display: none;
-  }
-
-  .navbar-item a#home-tab {
-    display: none;
-  }
-
-  .navbar-item a#sponsors-tab {
-    display: none;
+    visibility: hidden;
   }
 }

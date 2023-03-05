@@ -5,29 +5,14 @@
 			"pos": "President",
 			"email": "harry@foxacmw.com",
 			"image": "team/harry.jpg"
-		},
-		{
-			"name": "Cassie",
-			"pos": "Executive Vice President",
-			"image": "team/tbd.jpg"
-		},
-		{
-			"name": "Alex",
-			"pos": "Associate VP of Finance",
-			"image": "team/tbd.jpg"
-		},
-		{
-			"name": "Dominick",
-			"pos": "Associate VP of Partnerships",
-			"image": "team/tbd.jpg"
 		}
 	],
 	"ended_cutoff": "2023-02-27T08:00:00.000Z",
 	"live_cutoff": "2023-03-12T08:00:00.000Z",
 	"deadlines": [
 		{
-			"title": "Open to All",
-			"date": "2023-03-09T23:59:59-08:00"
+			"title": "General Admission",
+			"date": "2023-03-03T23:59:59-08:00"
 		}
 	],
 	"challenges_intro": "Code Jam 3.0 has revamped its challenges into general tracks that a project can be on. As a Chapter tied to a University with quaker backgrounds, we strongly believe in addressing deeply impactful issues and designing creative, unique solutions. We have identified five tracks that we think have tons of potential for innovation and originality. There isn't a strict guideline for what you should work on, but here are some of our tracks:",
@@ -58,7 +43,7 @@
 			"description": "Caring for those who are often overlooked or automating manual tasks in our community"
 		}
 	],
-	"about_intro": "Join us to build DevOp tools, apps, websites, any software, and community as we bring the magic of the Code Jam back!",
+	"about_intro": "Join us to build any kind of interal dev tools, apps, websites, any software, and community as we bring the magic of the Code Jam back!",
 	"about_body": "This Code Jam is geared for George Fox University students to turn solutions-oriented and/or creative ideas into real-life, practical projects while working in a welcoming and supportive atmosphere. This is the place to showcase your creativity and innovation, as well as create something super cool outside of the classroom.",
 	"projects": [
 		{
@@ -126,7 +111,7 @@
 			"q": "I have some other question!",
 			"textBefore": "Email us at ",
 			"textIn": "acm.gfu@gmail.com",
-			"textAfter": ". We gotchu. <3"
+			"textAfter": ". We gotchu."
 		}
 	]
 }

@@ -54,5 +54,12 @@
     @media screen and (max-width: 1023px) {
       flex-basis: 100%;
     }
+
+    @media screen and (max-width: 767px) {
+      .faq-plus {
+        visibility: hidden;
+        display: none;
+      }
+    }
   }
 }

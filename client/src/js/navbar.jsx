@@ -11,42 +11,37 @@ function Navbar() {
             <a href="/">
               <div id="title">
                 <span className="logo-text-2">acm</span>
-                <span className="logo-text-1">-w | newberg</span>
+                <span className="logo-text-1">-w newberg</span>
               </div>
             </a>
           </li>
-          <li className="navbar-item">
+          <li className="navbar-item home-tab">
             <AnchorLink offset="100" id="home-tab" href="#home">
-              home
+              Home
             </AnchorLink>
           </li>
-          {/* <li className="navbar-item">
-            <AnchorLink offset="100" href="#team">
-              our board
-            </AnchorLink>
-          </li> */}
-          {/* <li className="navbar-item">
+          <li className="navbar-item track-tab">
             <AnchorLink offset="100" href="#challenges">
-              innovation
+              Tracks
             </AnchorLink>
-          </li> */}
-          <li className="navbar-item">
+          </li>
+          <li className="navbar-item faq-tab">
             <AnchorLink offset="100" href="#faq">
-              code jam faq
+              FAQ
             </AnchorLink>
           </li>
-          <li className="navbar-item">
+          <li className="navbar-item sponsor-tab">
             <AnchorLink offset="100" id="sponsors-tab" href="#sponsors">
-              sponsors
+              Sponsors
             </AnchorLink>
           </li>
-          <li className="navbar-item">
+          <li className="navbar-item more-info">
             <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://docs.google.com/document/d/1eB77gNNH6DAc-4pKUO26ZB5W1z4Glzq38pYLA7d7nSk/edit?usp=sharing"
             >
-              more info
+              More Info
             </a>
           </li>
           {Date.now() > new Date(ended_cutoff) ? (
@@ -59,7 +54,7 @@ function Navbar() {
                 target="_blank"
                 href="https://live.foxacmw.com"
               >
-                live dashboard
+                Code Jam Live
               </a>
             </li>
           ) : (
@@ -72,7 +67,7 @@ function Navbar() {
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLScSowAjI15ieiIxyZtmxBx1fc8zigUzd13_zx1M8ET_Bf_fjg/viewform"
               >
-                apply now
+                Apply
               </a>
             </li>
           )}
