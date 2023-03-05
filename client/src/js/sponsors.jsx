@@ -7,17 +7,17 @@ const SPONSORS = {
       link: "https://silverpine.com",
       img: require("../sponsor-logos/silverpine.png"),
     },
+  ],
+  big: [
     {
       link: "https://cs.georgefox.edu/faculty",
       img: require("../sponsor-logos/georgefox.png"),
     },
-  ],
-  big: [
     {
       link: "https://www.georgefox.edu/offices/student-government/index.html",
       img: require("../sponsor-logos/asc.png"),
     },
-  ],
+  ]
 };
 
 const _makeSponsors = function (key) {
@@ -40,9 +40,9 @@ const _makeSponsors = function (key) {
 function Sponsors() {
   return (
     <div id="sponsors" className="container">
-      {/* <h1 className="section-heading" id="sub-heading">
-        sponsors
-      </h1> */}
+      <h1 className="section-heading" id="sub-heading">
+        Sponsors
+      </h1>
 
       <div id="building">
         <img className="building" src={buildingImage} alt="sky building" />
@@ -59,7 +59,7 @@ function Sponsors() {
         href="mailto:acm.gfu@gmail.com?Subject=ACM%20Sponsorship%20Interest"
         className="apply-button"
       >
-        become a sponsor!
+        Interested in sponsoring?
       </a>
     </div>
   );

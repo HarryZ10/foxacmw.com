@@ -4,7 +4,8 @@
 
 #challenges {
   position: relative;
-  padding-bottom: $small-space * 5;
+  padding-bottom: $small-space * 3;
+  padding-top: $small-space * 2;
   background-color: $background-color;
 
   .section-heading {
@@ -52,7 +53,7 @@
     box-shadow: 0px 0px 15px 0px #e4e4e4;
     color: $white;
 
-    p, h1 {
+    p, h2 {
       color: $white;
     }
   }
@@ -73,10 +74,9 @@
     margin-right: auto;
   }
 
-  h1 {
+  h2 {
     font-size: $subheading-font-size;
     text-align: center;
-    text-transform: lowercase;
     margin-bottom: $small-space;
     font-weight: $heavy-font-weight;
     color: $black;

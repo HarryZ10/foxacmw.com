@@ -72,7 +72,6 @@ $max-width: 960px;
 
 h1.section-heading {
   font-size: $heading-font-size;
-  text-transform: lowercase;
   text-align: center;
 
   @media screen and (max-width: 1023px) {

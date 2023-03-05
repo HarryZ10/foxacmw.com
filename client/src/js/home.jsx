@@ -39,11 +39,8 @@ class Home extends React.Component {
                 fontWeight: "600",
               }}
             >
-              Registration
+              Are you ready to jumpstart your career?
             </span>{" "}
-            is now open to
-            <br />
-            <span id="">high school seniors</span>
           </h1>
 
           <h1
@@ -55,7 +52,7 @@ class Home extends React.Component {
               marginTop: "30px",
             }}
           >
-            Join more than <span id="">30 hackers</span> across the{" "}
+            Join more than <span id="">20 hackers</span> across the{" "}
             <span id="">community</span>
             <br /> to build the <span id="">next big thing</span>
           </h1>
@@ -75,15 +72,15 @@ class Home extends React.Component {
             <a
               id="apply"
               className="mainButton applyLink-1"
-              href="https://docs.google.com/forms/u/1/d/e/1FAIpQLScSowAjI15ieiIxyZtmxBx1fc8zigUzd13_zx1M8ET_Bf_fjg/viewform"
+              href="https://live.foxacmw.com"
               target="_blank"
               rel="noopener noreferrer"
               style={{ width: "fit-content" }}
             >
-              Apply Now
+              Code Jam Live
             </a>
 
-            <a
+            {/* <a
               className="mainButton applyLink-2"
               href="mailto:acm.gfu@gmail.com?Subject=ACM%20Sponsorship%20Interest"
               target="_blank"
@@ -91,7 +88,7 @@ class Home extends React.Component {
               style={{ width: "fit-content" }}
             >
               Sponsor Code Jam
-            </a>
+            </a> */}
           </div>
           <img
             src={codejam_text}
@@ -105,20 +102,6 @@ class Home extends React.Component {
             }}
           />
         </div>
-
-        {/* <div className="rowC">
-          <div id="date-text">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="/"
-              className="apply-button"
-              aria-disabled
-            >
-              Join the Board
-            </a>
-          </div>
-        </div> */}
       </div>
     );
   }

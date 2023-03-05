@@ -11,7 +11,7 @@ import {
 
 import Navbar from "./js/navbar.jsx";
 import Home from "./js/home.jsx";
-import About from "./js/about.jsx";
+// import About from "./js/about.jsx";
 import Projects from "./js/projects.jsx";
 import FAQ from "./js/faq.jsx";
 import Sponsors from "./js/sponsors.jsx";
@@ -26,7 +26,7 @@ function Main() {
     <div>
       <Navbar />
       <Home />
-      <About />
+      {/* <About /> */}
       {/* <Team /> */}
       <Challenges />
       <FAQ />
@@ -54,10 +54,6 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <CustomRedirect
-            from="/sponsors"
-            to="https://forms.gle/EMv7CcD2MxFEh6RUA"
-          />
           <CustomRedirect
             from="/code-of-conduct"
             to="https://github.com/HarryZ10/website/blob/website-2022/CODE-OF-CONDUCT"
