@@ -11,9 +11,9 @@ import {
 
 import Navbar from "./js/navbar.jsx";
 import Home from "./js/home.jsx";
-// import About from "./js/about.jsx";
+import About from "./js/about.jsx";
 import Projects from "./js/projects.jsx";
-import FAQ from "./js/faq.jsx";
+// import FAQ from "./js/faq.jsx";
 import Sponsors from "./js/sponsors.jsx";
 import Challenges from "./js/challenges.jsx";
 // import Team from "./js/team.jsx";
@@ -26,10 +26,10 @@ function Main() {
     <div>
       <Navbar />
       <Home />
-      {/* <About /> */}
+      <About />
       {/* <Team /> */}
       <Challenges />
-      <FAQ />
+      {/* <FAQ /> */}
       <Projects />
       <Sponsors />
     </div>

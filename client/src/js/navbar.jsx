@@ -25,9 +25,14 @@ function Navbar() {
               Tracks
             </AnchorLink>
           </li>
-          <li className="navbar-item faq-tab">
+          {/* <li className="navbar-item faq-tab">
             <AnchorLink offset="100" href="#faq">
               FAQ
+            </AnchorLink>
+          </li> */}
+          <li className="navbar-item faq-tab">
+            <AnchorLink offset="100" href="#projects">
+              Projects
             </AnchorLink>
           </li>
           <li className="navbar-item sponsor-tab">
@@ -35,7 +40,7 @@ function Navbar() {
               Sponsors
             </AnchorLink>
           </li>
-          <li className="navbar-item more-info">
+          {/* <li className="navbar-item more-info">
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -43,7 +48,7 @@ function Navbar() {
             >
               More Info
             </a>
-          </li>
+          </li> */}
           {Date.now() > new Date(ended_cutoff) ? (
             <li
               className="apply-link register-btn-ext navbar-item"
@@ -60,14 +65,14 @@ function Navbar() {
           ) : (
             <li
               className="apply-link register-btn-ext navbar-item"
-              title="Applications open now"
+              title="Club Leader Application"
             >
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLScSowAjI15ieiIxyZtmxBx1fc8zigUzd13_zx1M8ET_Bf_fjg/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdLymBBOzBNcpjPbfpKOJmBcioJe64hYdOpfm5MB9FvwHccWg/viewform"
               >
-                Apply
+                Club Leader Application
               </a>
             </li>
           )}

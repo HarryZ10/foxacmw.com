@@ -19,7 +19,7 @@ function makeColors() {
 function Projects() {
   return (
     <div id="projects">
-      <h1 className="section-heading">Past Projects</h1>
+      <h1 className="section-heading">Past Code Jams</h1>
       <ProjectSlider />
     </div>
   );

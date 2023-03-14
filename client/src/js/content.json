@@ -2,12 +2,12 @@
 	"board_members": [
 		{
 			"name": "Harry",
-			"pos": "President",
+			"pos": "Director, Technology & Alumni Engagement",
 			"email": "harry@foxacmw.com",
 			"image": "team/harry.jpg"
 		}
 	],
-	"ended_cutoff": "2023-02-27T08:00:00.000Z",
+	"ended_cutoff": "2024-03-11T08:00:00.000Z",
 	"live_cutoff": "2023-03-12T08:00:00.000Z",
 	"deadlines": [
 		{
@@ -15,7 +15,7 @@
 			"date": "2023-03-03T23:59:59-08:00"
 		}
 	],
-	"challenges_intro": "Code Jam 3.0 has revamped its challenges into general tracks that a project can be on. As a Chapter tied to a University with quaker backgrounds, we strongly believe in addressing deeply impactful issues and designing creative, unique solutions. We have identified five tracks that we think have tons of potential for innovation and originality. There isn't a strict guideline for what you should work on, but here are some of our tracks:",
+	"challenges_intro": "As a Chapter tied to a University with quaker backgrounds, we strongly believe in addressing deeply impactful issues and designing creative, unique solutions. We have identified five tracks that we think have tons of potential for innovation and originality. There isn't a strict guideline for what you should work on, but here are some of our tracks:",
 	"challenges": [
 		{
 			"name": "healthcare",
@@ -46,6 +46,26 @@
 	"about_intro": "Join us to build any kind of interal dev tools, apps, websites, any software, and community as we bring the magic of the Code Jam back!",
 	"about_body": "This Code Jam is geared for George Fox University students to turn solutions-oriented and/or creative ideas into real-life, practical projects while working in a welcoming and supportive atmosphere. This is the place to showcase your creativity and innovation, as well as create something super cool outside of the classroom.",
 	"projects": [
+		{
+			"title": "Eco Eats",
+			"description": "Made by Daniel, Alan, Conner, and Marvin, Eco Eats is a web app that generates recipes for users to follow and analyze environmental impacts, reducing food waste. Additionally, we developed a machine learning algorithm to determine the freshness of produce, so users can be confident they are eating safe and healthy food.",
+			"url": "https://acm-w.gitlab.io/code-jam-2023/team3/"
+		},
+		{
+			"title": "Blanket",
+			"description": "Made by Toby, Olivia, Brody, Michael, and Ethan, Blanket provides a web platform where students can access all the resources they need to succeed in their academic journey, providing a personalized and supportive environment that empowers students to achieve their full potential.",
+			"url": "https://devpost.com/software/blanket"
+		},
+		{
+			"title": "Files For Freedom",
+			"description": "Made by Blake, Evan, and Luke, Files for Freedom is for anyone who runs a domain and wants to support freedom of information around the world. It puts the power in the hands of website owners to decide what content they want their website to host.",
+			"url": "https://files-for-freedom.web.app/"
+		},
+		{
+			"title": "Propogate",
+			"description": "Made by Matt, Kevin, Josiah, and Ben, Propagate allows for users to create accounts and design their own unique logic circuits for peers in the ENGE 220 Digital Logic Design class.",
+			"url": "https://flask.jericho.sh/"
+		},
 		{
 			"title": "Book Lend",
 			"description": "Trey, Adam, and Ethan developed a book lending platform that provides students the functionality to share books throughout the student body. They utilized Node.js for our REST API and PostgreSQL for our database. Lastly, they used HTML, Bootstrap, and JavaScript."

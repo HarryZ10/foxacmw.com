@@ -22,7 +22,7 @@ class Home extends React.Component {
           }}
         >
           <h1 id="gradient_text" style={{ fontSize: "70px" }}>
-            Code Jam <span id="year-text">2023</span>
+            ACM-<span id="year-text">W</span>
           </h1>
           <h1
             id="subtext_intro"
@@ -39,7 +39,7 @@ class Home extends React.Component {
                 fontWeight: "600",
               }}
             >
-              Are you ready to jumpstart your career?
+              Currently recruiting club leaders
             </span>{" "}
           </h1>
 
@@ -52,11 +52,9 @@ class Home extends React.Component {
               marginTop: "30px",
             }}
           >
-            Join more than <span id="">20 hackers</span> across the{" "}
-            <span id="">community</span>
-            <br /> to build the <span id="">next big thing</span>
+            Applications open now!
           </h1>
-          <h1
+          {/* <h1
             id="date-text"
             style={{
               marginTop: "25px",
@@ -66,18 +64,18 @@ class Home extends React.Component {
               textAlign: "left",
             }}
           >
-            March 10th - 12th, 2023 @ George Fox University
-          </h1>
+            Applications open now!
+          </h1> */}
           <div className="buttonRow" style={ButtnGroup}>
             <a
               id="apply"
               className="mainButton applyLink-1"
-              href="https://live.foxacmw.com"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdLymBBOzBNcpjPbfpKOJmBcioJe64hYdOpfm5MB9FvwHccWg/viewform"
               target="_blank"
               rel="noopener noreferrer"
               style={{ width: "fit-content" }}
             >
-              Code Jam Live
+              Apply Now
             </a>
 
             {/* <a
