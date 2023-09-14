@@ -21,7 +21,7 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
-app.use(require("./routes/navbar"));
+// app.use(require("./routes/navbar"));
 
 // get driver connection
 // const dbo = require("./db/conn");
