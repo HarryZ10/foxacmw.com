@@ -1,6 +1,6 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { ended_cutoff } from "./content.json";
+// import { ended_cutoff } from "./content.json";
 
 function Navbar() {
   return (
@@ -20,24 +20,19 @@ function Navbar() {
               Home
             </AnchorLink>
           </li>
-          <li className="navbar-item track-tab">
+          {/* <li className="navbar-item track-tab">
             <AnchorLink offset="100" href="#challenges">
               Tracks
-            </AnchorLink>
-          </li>
-          {/* <li className="navbar-item faq-tab">
-            <AnchorLink offset="100" href="#faq">
-              FAQ
             </AnchorLink>
           </li> */}
           <li className="navbar-item faq-tab">
             <AnchorLink offset="100" href="#projects">
-              Projects
+              Past Code Jams
             </AnchorLink>
           </li>
           <li className="navbar-item sponsor-tab">
             <AnchorLink offset="100" id="sponsors-tab" href="#sponsors">
-              Sponsors
+              Past Sponsors
             </AnchorLink>
           </li>
           {/* <li className="navbar-item more-info">
@@ -49,7 +44,7 @@ function Navbar() {
               More Info
             </a>
           </li> */}
-          {Date.now() > new Date(ended_cutoff) ? (
+          {/* {Date.now() > new Date(ended_cutoff) ? (
             <li
               className="apply-link register-btn-ext navbar-item"
               title="Live dashboard"
@@ -67,15 +62,9 @@ function Navbar() {
               className="apply-link register-btn-ext navbar-item"
               title="Club Leader Application"
             >
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdLymBBOzBNcpjPbfpKOJmBcioJe64hYdOpfm5MB9FvwHccWg/viewform"
-              >
-                Club Leader Application
-              </a>
+           
             </li>
-          )}
+          )} */}
         </ul>
       </div>
     </nav>

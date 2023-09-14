@@ -39,11 +39,11 @@ class Home extends React.Component {
                 fontWeight: "600",
               }}
             >
-              Currently recruiting club leaders
+              Currently closed for operation and contact.
             </span>{" "}
           </h1>
 
-          <h1
+          {/* <h1
             id="subtext_intro_2"
             style={{
               color: "black",
@@ -52,8 +52,8 @@ class Home extends React.Component {
               marginTop: "30px",
             }}
           >
-            Applications open now!
-          </h1>
+            Due to lack of interest of incoming and current officers, chapter operations are suspended.
+          </h1> */}
           {/* <h1
             id="date-text"
             style={{
@@ -70,12 +70,10 @@ class Home extends React.Component {
             <a
               id="apply"
               className="mainButton applyLink-1"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdLymBBOzBNcpjPbfpKOJmBcioJe64hYdOpfm5MB9FvwHccWg/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               style={{ width: "fit-content" }}
             >
-              Apply Now
+              Applications Closed
             </a>
 
             {/* <a

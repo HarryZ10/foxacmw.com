@@ -26,9 +26,9 @@ function Main() {
     <div>
       <Navbar />
       <Home />
-      <About />
+      {/* <About /> */}
       {/* <Team /> */}
-      <Challenges />
+      {/* <Challenges /> */}
       {/* <FAQ /> */}
       <Projects />
       <Sponsors />
